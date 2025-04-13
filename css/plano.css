@@ -1,0 +1,71 @@
+    
+    body , html{
+        font-family: Verdana;
+        font-size: 14px;
+        margin: 0; 
+        padding: 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .draggable {
+            width: 130px;
+            height: 80px;
+            padding: 0.5em;
+            float: left;
+            margin: 0 5px 5px 0;
+            background-color: #E8FFFD;
+            border: thin solid #090;
+            opacity:0.7;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+            display:inline; 
+            position:absolute;
+            font-size: 14px;
+            border-radius: 15px;
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+    }
+    .draggable:hover {
+            height: auto;
+            opacity:1;
+            filter:alpha(opacity=100); /* For IE8 and earlier */
+            cursor:move;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+           
+    }
+    
+
+    #containment-wrapper {
+            width: 1600px;
+            height: 1280px;
+            border: 2px solid #ccc;
+            padding: 10px;
+    }
+    h3 { clear: left; }
+    .avance {
+            height: 10px;
+            width: 75px;
+            border: thin solid #009;
+            background-color: #C0E9FE;
+    }
+    
+    #contenido{
+        opacity:0.6;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+    }
+    #contenido:hover{
+        opacity:1;
+        filter:alpha(opacity=100); /* For IE8 and earlier */
+        
+    }
+    fixed center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    

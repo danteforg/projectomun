@@ -1,0 +1,54 @@
+.draggable {
+            width: 90px;
+            height: 90px;
+            padding: 0.5em;
+            float: left;
+            margin: 0 10px 10px 0;
+            background-color: #E8FFFD;
+            border: thin solid #090;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+            display:inline; 
+            position:absolute;
+    }
+    .draggable:hover{
+            opacity:1;
+            filter:alpha(opacity=100); /* For IE8 and earlier */
+            cursor:move;
+    }
+    #containment-wrapper {
+            width: 1600px;
+            height: 1280px;
+            border: 2px solid #ccc;
+            padding: 10px;
+            /*background-attachment: fixed;*/
+            /*background-image: url(<?php echo $plano; ?>);
+            background-repeat: no-repeat;*/
+    }
+    h3 { clear: left; }
+    .avance {
+            height: 10px;
+            width: 75px;
+            border: thin solid #009;
+            background-color: #C0E9FE;
+    }
+    body , html{
+            font-family: Verdana;
+            font-size: 12px;
+    }
+    body {
+        background: url(<?php echo "../".$row['path'] ?>) no-repeat fixed center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .divMain{
+        opacity:0.6;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+    }
+     .divMain:hover{
+            opacity:1;
+            filter:alpha(opacity=100); /* For IE8 and earlier */
+            
+    }
